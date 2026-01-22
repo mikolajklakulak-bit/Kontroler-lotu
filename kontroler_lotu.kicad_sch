@@ -1,0 +1,1133 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ade9c7e9-87ec-416b-ada9-3e894081f6ea")
+	(paper "A4")
+	(title_block
+		(title "Kontroler Lotu")
+		(date "07.2025")
+		(rev "V2.0")
+		(company "M. Kłakulak")
+	)
+	(lib_symbols
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 161.29 93.98) (xy 180.34 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "133edff2-609d-4221-9435-7aad4f7fb5ca")
+	)
+	(wire
+		(pts
+			(xy 177.8 96.52) (xy 161.29 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "154cd72f-8cf8-4eb5-9b82-e1a3b92de53e")
+	)
+	(wire
+		(pts
+			(xy 175.26 116.84) (xy 189.23 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e227521-dcec-4d86-a42b-9b3f0ddd7b97")
+	)
+	(wire
+		(pts
+			(xy 105.41 80.01) (xy 121.92 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24953f2b-be36-4abd-9736-c971ec9b7bce")
+	)
+	(wire
+		(pts
+			(xy 105.41 90.17) (xy 114.3 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2523020a-5a4f-49b8-ae2f-9aba36cda3bb")
+	)
+	(wire
+		(pts
+			(xy 161.29 76.2) (xy 201.93 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31963efd-10b5-47ab-b40d-00139da9eb76")
+	)
+	(wire
+		(pts
+			(xy 161.29 83.82) (xy 201.93 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32473b20-2f1d-4f82-b822-79e7ad575acd")
+	)
+	(wire
+		(pts
+			(xy 161.29 99.06) (xy 171.45 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f31b0a0-05ab-4e81-8d90-172201c3e36e")
+	)
+	(wire
+		(pts
+			(xy 170.18 101.6) (xy 161.29 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d158c47-cb46-4f12-b9c4-b8e7df145571")
+	)
+	(wire
+		(pts
+			(xy 189.23 119.38) (xy 170.18 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52b02dfb-dba1-43d4-8eb4-aa490a15089a")
+	)
+	(wire
+		(pts
+			(xy 180.34 109.22) (xy 180.34 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "594f35fe-57af-4adb-9821-05b53a6dbe9f")
+	)
+	(wire
+		(pts
+			(xy 177.8 114.3) (xy 177.8 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6411b1a4-344c-4b70-8e14-fea073c69b97")
+	)
+	(wire
+		(pts
+			(xy 189.23 109.22) (xy 180.34 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7340b58f-48e8-4851-9768-45aec9902390")
+	)
+	(wire
+		(pts
+			(xy 189.23 114.3) (xy 177.8 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f6191ad-475a-473b-a34d-3f14d1e3894e")
+	)
+	(wire
+		(pts
+			(xy 105.41 77.47) (xy 121.92 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c7cb1de-165d-4f57-afac-d9082c353d6c")
+	)
+	(wire
+		(pts
+			(xy 161.29 86.36) (xy 201.93 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "947b498d-fd85-459c-b8d7-ff7efbc6a964")
+	)
+	(wire
+		(pts
+			(xy 161.29 73.66) (xy 201.93 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "982b6532-760c-4115-a91c-df8d5b231256")
+	)
+	(wire
+		(pts
+			(xy 182.88 111.76) (xy 182.88 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0048e7b-f172-4ca5-90e5-aaa5320260c2")
+	)
+	(wire
+		(pts
+			(xy 161.29 81.28) (xy 201.93 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a848f0f0-3d36-425c-9077-23affa46312a")
+	)
+	(wire
+		(pts
+			(xy 189.23 111.76) (xy 182.88 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa21ea94-6776-45c2-844f-4a1df615c153")
+	)
+	(wire
+		(pts
+			(xy 161.29 91.44) (xy 182.88 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9d0d56d-f32c-458a-a034-e17d8a3debf1")
+	)
+	(wire
+		(pts
+			(xy 170.18 119.38) (xy 170.18 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca3bbf55-266a-47d0-99dc-0bfff5b70d91")
+	)
+	(wire
+		(pts
+			(xy 105.41 82.55) (xy 121.92 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d812a6b4-66a5-467f-b6cc-7d2a43d91b0f")
+	)
+	(wire
+		(pts
+			(xy 105.41 74.93) (xy 121.92 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9334697-8967-4005-a1e8-c715308c6824")
+	)
+	(wire
+		(pts
+			(xy 161.29 78.74) (xy 201.93 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e261cc8f-531f-4678-9a3a-4e2b9ad17240")
+	)
+	(wire
+		(pts
+			(xy 161.29 71.12) (xy 201.93 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6e1a8a7-e847-4c7c-a95f-8610f3af60a0")
+	)
+	(label "+5v_supply"
+		(at 107.95 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1074d2eb-00ae-4587-8cb7-1f8ca36a57cf")
+	)
+	(label "+5v_supply"
+		(at 176.53 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3dab015b-c682-49a5-a11d-cec8d0bb5a17")
+	)
+	(label "+5v_supply"
+		(at 162.56 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c7eed7d0-55cb-4375-a718-d90cd94a4c6e")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 251.46 34.29 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a861e2b-d752-4e47-83e2-16123dd992e0")
+		(property "Reference" "H4"
+			(at 254 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 254 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 251.46 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 251.46 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "kontroler_lotu"
+				(path "/ade9c7e9-87ec-416b-ada9-3e894081f6ea"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 251.46 29.21 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "885f9a4b-6346-4e39-acf1-b3a0afcfe223")
+		(property "Reference" "H3"
+			(at 254 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 254 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 251.46 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 251.46 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "kontroler_lotu"
+				(path "/ade9c7e9-87ec-416b-ada9-3e894081f6ea"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 251.46 24.13 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb502d34-eff9-4a7f-ae86-728cbbe539dd")
+		(property "Reference" "H2"
+			(at 254 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 254 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 251.46 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 251.46 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "kontroler_lotu"
+				(path "/ade9c7e9-87ec-416b-ada9-3e894081f6ea"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 251.46 19.05 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1930b6b-6b6e-48b7-a116-86a8b7aeda75")
+		(property "Reference" "H1"
+			(at 254 17.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 254 20.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 251.46 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 251.46 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/ade9c7e9-87ec-416b-ada9-3e894081f6ea"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 82.55 71.12)
+		(size 22.86 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "35a210ca-7434-4c49-a958-0151444f78bd")
+		(property "Sheetname" "USB"
+			(at 82.55 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 82.55 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+5V_supply" bidirectional
+			(at 105.41 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5f95b5b5-638d-4d61-a657-60f729b73406")
+		)
+		(pin "TXD_ft" output
+			(at 105.41 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f50ad4db-dd09-4c2d-b594-05ecefd2ac2f")
+		)
+		(pin "RXD_ft" input
+			(at 105.41 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c1771aba-0b57-48b2-a9f5-f7ea215d74c7")
+		)
+		(pin "CTS#" input
+			(at 105.41 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1666988d-2490-43e6-b737-15c5f09bc618")
+		)
+		(pin "RTS#" output
+			(at 105.41 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "45ab22c0-133c-4cc7-818d-a24eaed14a23")
+		)
+		(instances
+			(project "kontroler_lotu"
+				(path "/ade9c7e9-87ec-416b-ada9-3e894081f6ea"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 121.92 69.215)
+		(size 39.37 33.655)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4c99e6c3-3738-4bcf-bafc-d6e867d37158")
+		(property "Sheetname" "STM32"
+			(at 121.92 68.5034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "controller.kicad_sch"
+			(at 121.92 103.4546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 161.29 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a6672c4d-92c2-4c82-912f-47604a8ad869")
+		)
+		(pin "SCL" output
+			(at 161.29 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b5b4b8a0-1b7f-4d6e-b2bf-97a0cf1f42cb")
+		)
+		(pin "+5v_supply" output
+			(at 161.29 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "38fd8daf-9c9a-4f63-accc-f08cf62e00f0")
+		)
+		(pin "RTS#" output
+			(at 121.92 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1c31d2e2-fc12-4e32-a8e2-f3284595400d")
+		)
+		(pin "TXD" output
+			(at 121.92 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2011eee9-3ebe-4df6-8d2d-35a7456aec7c")
+		)
+		(pin "RXD" input
+			(at 121.92 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ab432d89-7e84-46ef-a5ad-6314e7a1fe5b")
+		)
+		(pin "CS_IMU" output
+			(at 161.29 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4ad237cc-d683-4a13-b14a-a47e53efb682")
+		)
+		(pin "CTS#" input
+			(at 121.92 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5704c227-3887-4dbb-82bf-e88828ec4ae6")
+		)
+		(pin "3.3v_add" input
+			(at 161.29 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ef43b7e1-24ea-47d7-be0e-9ff62fbdf536")
+		)
+		(pin "MOSI_imu" output
+			(at 161.29 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "44a52379-e829-44da-bc1b-217ceebab59c")
+		)
+		(pin "MISO_imu" input
+			(at 161.29 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d6ce95e8-724a-448e-9736-945f30a6e0ce")
+		)
+		(pin "SCK_imu" output
+			(at 161.29 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7afd0f0c-0d3c-4411-8801-a1beafe3389e")
+		)
+		(pin "INT1_IMU" input
+			(at 161.29 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8af7bcdd-a078-4c22-9a3a-999a8bdf8ade")
+		)
+		(pin "INT2_IMU" input
+			(at 161.29 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e5997ad4-637a-4f0a-94e9-4fa1187e4ea3")
+		)
+		(pin "INT1_BMP" input
+			(at 161.29 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "68199e20-46bc-492d-b3f3-308c2ad737cf")
+		)
+		(pin "3,3V_stm32" output
+			(at 161.29 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "034f1911-6fc6-40cc-8a3f-5a0d536b5ab5")
+		)
+		(instances
+			(project "kontroler_lotu"
+				(path "/ade9c7e9-87ec-416b-ada9-3e894081f6ea"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 189.23 106.68)
+		(size 25.4 14.605)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8d53120b-16da-49a7-86d1-143614a878b1")
+		(property "Sheetname" "FRAM"
+			(at 189.23 105.9684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "eeprom.kicad_sch"
+			(at 189.23 121.8696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+5V_supply" input
+			(at 189.23 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "339d593b-7992-4383-9d62-884c064364ed")
+		)
+		(pin "SCL_fram" input
+			(at 189.23 111.76 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "496981b1-8a08-49ad-8c61-fd03161b39a7")
+		)
+		(pin "SDA_fram" bidirectional
+			(at 189.23 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dce19684-dd7d-4d3f-8cdd-f59b22593f60")
+		)
+		(pin "3.3v_FRAM" output
+			(at 189.23 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8bb6e293-7932-476d-bb8d-b5a2328a80a8")
+		)
+		(pin "INT1_BMP" output
+			(at 189.23 119.38 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0a2e79a9-d3a6-482e-8e3b-3ed92a61a0ef")
+		)
+		(instances
+			(project "kontroler_lotu"
+				(path "/ade9c7e9-87ec-416b-ada9-3e894081f6ea"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 201.93 69.215)
+		(size 31.75 19.685)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9006e8d8-741e-44dd-bd3c-e3e388e000b6")
+		(property "Sheetname" "IMU"
+			(at 201.93 68.5034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "imu.kicad_sch"
+			(at 201.93 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CS_imu" input
+			(at 201.93 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d42a50ab-6fe5-408b-bbc4-c92824c91f9c")
+		)
+		(pin "int2_imu" output
+			(at 201.93 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bcc3ec11-e205-464f-a2e7-9c111bbbc15f")
+		)
+		(pin "int1_imu" output
+			(at 201.93 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "92e63dec-041a-4a7c-90d7-3ea640e606cf")
+		)
+		(pin "MOSI_imu" input
+			(at 201.93 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2f00f6cd-56fb-49d8-9479-9f7d89ea845f")
+		)
+		(pin "MISO_imu" output
+			(at 201.93 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0c9d4ac6-f18b-4b72-9dc0-31f58182235d")
+		)
+		(pin "SCK_imu" input
+			(at 201.93 86.36 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "21b2c64c-0af5-4f83-9293-92b77d7d2f60")
+		)
+		(pin "3,3V_stm32" input
+			(at 201.93 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "83d50081-7436-4c9e-b46e-9d52f981860e")
+		)
+		(instances
+			(project "kontroler_lotu"
+				(path "/ade9c7e9-87ec-416b-ada9-3e894081f6ea"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
