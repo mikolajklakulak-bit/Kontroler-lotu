@@ -5229,16 +5229,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 27.94) (xy 26.67 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04d23f10-ed99-4c52-b6d5-0468e13ba63b")
-	)
-	(wire
-		(pts
 			(xy 64.77 111.76) (xy 83.82 111.76)
 		)
 		(stroke
@@ -5476,16 +5466,6 @@
 			(type default)
 		)
 		(uuid "1b79a0fe-82f5-4fd7-805b-c20e77c420d5")
-	)
-	(wire
-		(pts
-			(xy 24.13 27.94) (xy 24.13 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cbf425b-983b-40eb-8bc1-17fe692aa685")
 	)
 	(wire
 		(pts
@@ -6599,7 +6579,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 52.07) (xy 35.56 52.07)
+			(xy 16.51 16.51) (xy 30.48 16.51)
 		)
 		(stroke
 			(width 0)
@@ -7193,17 +7173,6 @@
 		)
 		(uuid d524ea4d-42ba-485a-bc4c-0111e05c0da8)
 	)
-	(text "input:\n4.75 - 5.25V"
-		(exclude_from_sim no)
-		(at 13.716 20.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "03bd5c3b-b3bd-4225-b87d-eca41ca29abe")
-	)
 	(text "UWAGA\nKondensatory C3, C4\nmuszą być chipa tak blisko jak sie da!"
 		(exclude_from_sim no)
 		(at 144.526 31.75 0)
@@ -7460,7 +7429,7 @@
 		(uuid "1fd47ab3-fde1-42f1-8351-61bd49fd68a4")
 	)
 	(label "+5v_supply"
-		(at 22.86 52.07 0)
+		(at 17.78 16.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8303,7 +8272,7 @@
 	)
 	(hierarchical_label "+5v_supply"
 		(shape output)
-		(at 35.56 52.07 0)
+		(at 30.48 16.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12078,72 +12047,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 24.13 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b5d7ad7f-ffac-4f73-be83-1f19c9f85fd2")
-		(property "Reference" "#PWR01"
-			(at 24.13 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 24.13 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 24.13 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 24.13 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 24.13 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "00d65b4d-5304-4a90-a56a-aeada5d20f4f")
-		)
-		(instances
-			(project ""
-				(path "/ade9c7e9-87ec-416b-ada9-3e894081f6ea/4c99e6c3-3738-4bcf-bafc-d6e867d37158"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
 		(at 63.5 85.09 180)
 		(unit 1)
@@ -13042,76 +12945,6 @@
 			(project "kontroler_lotu"
 				(path "/ade9c7e9-87ec-416b-ada9-3e894081f6ea/4c99e6c3-3738-4bcf-bafc-d6e867d37158"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 24.13 22.86 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f8c153e8-83a6-470b-8fb5-a815af05422a")
-		(property "Reference" "J1"
-			(at 27.94 22.2249 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "input_voltage"
-			(at 27.94 24.7649 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at 24.13 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 24.13 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 24.13 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "567eec8a-e08b-44e9-bc01-bf3bf2e6e306")
-		)
-		(pin "2"
-			(uuid "43d14232-6038-401c-a152-aef1506b8377")
-		)
-		(instances
-			(project ""
-				(path "/ade9c7e9-87ec-416b-ada9-3e894081f6ea/4c99e6c3-3738-4bcf-bafc-d6e867d37158"
-					(reference "J1")
 					(unit 1)
 				)
 			)

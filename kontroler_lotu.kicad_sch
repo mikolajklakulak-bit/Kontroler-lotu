@@ -96,6 +96,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 58.42) (xy 171.45 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cfdf970-3bc4-46bb-8067-f5254dbaae8a")
+	)
+	(wire
+		(pts
 			(xy 161.29 93.98) (xy 180.34 93.98)
 		)
 		(stroke
@@ -375,6 +385,17 @@
 			(justify left bottom)
 		)
 		(uuid "3dab015b-c682-49a5-a11d-cec8d0bb5a17")
+	)
+	(label "+5v_supply"
+		(at 162.56 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b81592f3-1789-455b-829d-6622be3f9ccf")
 	)
 	(label "+5v_supply"
 		(at 162.56 99.06 0)
@@ -925,6 +946,54 @@
 			(project "kontroler_lotu"
 				(path "/ade9c7e9-87ec-416b-ada9-3e894081f6ea"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 121.92 48.26)
+		(size 39.37 13.335)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "556409d6-60da-44ff-8b76-7018489c554c")
+		(property "Sheetname" "Volt Supp"
+			(at 121.92 47.5484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "volt_supp.kicad_sch"
+			(at 121.92 62.1796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+5v_supply" output
+			(at 161.29 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d791e63d-ff2e-4e94-9d92-e4325115b346")
+		)
+		(instances
+			(project "kontroler_lotu"
+				(path "/ade9c7e9-87ec-416b-ada9-3e894081f6ea"
+					(page "6")
 				)
 			)
 		)
