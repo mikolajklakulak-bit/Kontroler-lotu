@@ -364,6 +364,25 @@
 		)
 		(uuid "f6e1a8a7-e847-4c7c-a95f-8610f3af60a0")
 	)
+	(text_box "komentarze do poprawy w tym projekcie:\n1) Footprint MOSFET jest nieprawidłowy\n2) Zrobić socket na programator np. 4x2 konektor"
+		(exclude_from_sim no)
+		(at 18.415 18.415 0)
+		(size 52.07 31.115)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "dee33d3a-eb6a-4d5d-a826-cb459899c3ec")
+	)
 	(label "+5v_supply"
 		(at 107.95 90.17 0)
 		(fields_autoplaced yes)

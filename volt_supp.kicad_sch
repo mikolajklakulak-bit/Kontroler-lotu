@@ -1893,6 +1893,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 74.93) (xy 208.28 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6312d35f-beb8-40bf-b0b4-5ba643de2f68")
+	)
+	(wire
+		(pts
 			(xy 111.76 96.52) (xy 115.57 96.52)
 		)
 		(stroke
@@ -1960,6 +1970,16 @@
 			(type default)
 		)
 		(uuid "7a27bc91-816c-4368-acdf-ada8b6ae6e18")
+	)
+	(wire
+		(pts
+			(xy 210.82 74.93) (xy 210.82 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8200e06c-ad3b-486f-a38c-9049a8113e7d")
 	)
 	(wire
 		(pts
@@ -2162,25 +2182,6 @@
 			(type none)
 		)
 		(uuid e792d50b-2db8-4d08-9ba8-3e1e0277b0e9)
-	)
-	(text_box "UWAGA\nPamiętać o rozdzieleniu na\nPCB dwóch stref GND"
-		(exclude_from_sim no)
-		(at 161.29 36.83 0)
-		(size 29.845 8.89)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "d9b72115-5475-4d11-b9db-5b2a8c0cf3bc")
 	)
 	(text "Zabezpieczenie przed odwróconą polaryzacja\nVin = 5V\nIout = 0.6A\n*wartości symulowane"
 		(exclude_from_sim no)
@@ -2785,6 +2786,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 208.28 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b467563-dfdb-4bed-8e8a-ce4d2e0471cf")
+		(property "Reference" "J12"
+			(at 212.09 69.2149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "raw_input_voltage"
+			(at 212.09 71.7549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 208.28 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 208.28 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9a3f960-7f50-4354-9376-6b939715cd3a")
+		)
+		(pin "2"
+			(uuid "e657e591-0467-43d1-94e3-7e4b84b94f0a")
+		)
+		(instances
+			(project "kontroler_lotu"
+				(path "/ade9c7e9-87ec-416b-ada9-3e894081f6ea/556409d6-60da-44ff-8b76-7018489c554c"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 200.66 90.17 0)
 		(unit 1)
@@ -2988,6 +3059,72 @@
 			(project "kontroler_lotu"
 				(path "/ade9c7e9-87ec-416b-ada9-3e894081f6ea/556409d6-60da-44ff-8b76-7018489c554c"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 208.28 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e1567d8-5004-485c-857b-160f75f9ef7c")
+		(property "Reference" "#PWR057"
+			(at 208.28 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 208.28 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 208.28 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a87db02-f098-4c83-a58d-75772d961105")
+		)
+		(instances
+			(project "kontroler_lotu"
+				(path "/ade9c7e9-87ec-416b-ada9-3e894081f6ea/556409d6-60da-44ff-8b76-7018489c554c"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)

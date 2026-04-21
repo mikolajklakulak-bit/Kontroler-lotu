@@ -147,6 +147,127 @@
 				)
 			)
 		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "SamacSys_Parts:ICM-42688-P"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -642,6 +763,12 @@
 		(uuid "abcfbb59-9733-442b-94ab-48948878dd08")
 	)
 	(junction
+		(at 144.78 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c83cbcb9-ddac-4d21-af2b-46852009cdb5")
+	)
+	(junction
 		(at 129.54 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -689,7 +816,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 50.8) (xy 144.78 54.61)
+			(xy 144.78 45.72) (xy 144.78 49.53)
 		)
 		(stroke
 			(width 0)
@@ -706,16 +833,6 @@
 			(type default)
 		)
 		(uuid "2aa246f5-d013-46ea-93ef-b1b56d576f3f")
-	)
-	(wire
-		(pts
-			(xy 90.17 97.79) (xy 109.22 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fe486b4-be16-4341-b468-9e0f53ab15e6")
 	)
 	(wire
 		(pts
@@ -759,6 +876,26 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 49.53) (xy 147.32 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45039ad6-1fa3-4377-81df-97994824ed13")
+	)
+	(wire
+		(pts
+			(xy 144.78 49.53) (xy 144.78 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4570d055-ed8e-488d-8908-068d55f227d3")
+	)
+	(wire
+		(pts
 			(xy 204.47 97.79) (xy 175.26 97.79)
 		)
 		(stroke
@@ -799,7 +936,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 50.8) (xy 142.24 54.61)
+			(xy 142.24 45.72) (xy 142.24 54.61)
 		)
 		(stroke
 			(width 0)
@@ -849,6 +986,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 97.79) (xy 109.22 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d992c40-2f9e-44fd-a219-c78e16409ce4")
+	)
+	(wire
+		(pts
 			(xy 139.7 123.19) (xy 139.7 124.46)
 		)
 		(stroke
@@ -869,7 +1016,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 50.8) (xy 139.7 54.61)
+			(xy 139.7 45.72) (xy 139.7 54.61)
 		)
 		(stroke
 			(width 0)
@@ -886,6 +1033,16 @@
 			(type default)
 		)
 		(uuid "ad9cd141-68c1-4ba2-98e3-ebc55cbd981a")
+	)
+	(wire
+		(pts
+			(xy 154.94 49.53) (xy 165.1 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2da659b-e0e5-4f19-ba49-b70407c963dd")
 	)
 	(wire
 		(pts
@@ -939,6 +1096,16 @@
 		)
 		(uuid "184f746c-013d-4ef3-85a1-87d976330d11")
 	)
+	(text "SPRAWDZIĆ CZY JEST OK (rezystor) I CZY MUSI BYC NA MISO (napewno \nnie ale z jakiegos powodu tak jest teraz fizycznie)"
+		(exclude_from_sim no)
+		(at 188.722 42.164 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cd38ffd7-37d0-40c7-b45e-e9fac631a844")
+	)
 	(text "I2C address: (old)\n1101000\n0x68"
 		(exclude_from_sim no)
 		(at 94.742 64.008 0)
@@ -949,6 +1116,17 @@
 			(justify left)
 		)
 		(uuid "faefb05c-a828-4668-bd0d-7c93a83089a7")
+	)
+	(label "3,3V_imu"
+		(at 157.48 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "59ada5bb-32db-4aba-9019-d5b30e2c6f12")
 	)
 	(label "3,3V_imu"
 		(at 36.83 30.48 0)
@@ -985,7 +1163,7 @@
 	)
 	(hierarchical_label "MOSI_imu"
 		(shape input)
-		(at 139.7 50.8 90)
+		(at 139.7 45.72 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1009,7 +1187,7 @@
 	)
 	(hierarchical_label "CS_imu"
 		(shape input)
-		(at 144.78 50.8 90)
+		(at 144.78 45.72 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1033,7 +1211,7 @@
 	)
 	(hierarchical_label "SCK_imu"
 		(shape input)
-		(at 142.24 50.8 90)
+		(at 142.24 45.72 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1194,6 +1372,74 @@
 			(project ""
 				(path "/ade9c7e9-87ec-416b-ada9-3e894081f6ea/9006e8d8-741e-44dd-bd3c-e3e388e000b6"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 151.13 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "124638d9-dba0-4078-adba-2d4cbe32929b")
+		(property "Reference" "R17"
+			(at 151.13 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 151.13 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 151.13 51.308 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 151.13 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4d9c0db8-d56f-483a-a0af-1ca93e2f2aaa")
+		)
+		(pin "1"
+			(uuid "e2212bf5-2c95-4e3b-a337-2eb5f8cab71b")
+		)
+		(instances
+			(project ""
+				(path "/ade9c7e9-87ec-416b-ada9-3e894081f6ea/9006e8d8-741e-44dd-bd3c-e3e388e000b6"
+					(reference "R17")
 					(unit 1)
 				)
 			)
